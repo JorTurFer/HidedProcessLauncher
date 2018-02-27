@@ -34,9 +34,8 @@ namespace HidedProcessLauncher
         /// <returns></returns>
         public static int ShowMainWindow(IntPtr hwnd)
         {
-            
-                ShowWindow(hwnd.ToInt32(), SW_MAXIMIZED);
-            return ShowWindow(hwnd.ToInt32(), SW_SHOW); 
+            ShowWindow(hwnd.ToInt32(), SW_MAXIMIZED);
+            return ShowWindow(hwnd.ToInt32(), SW_SHOW);
         }
     }
 }
