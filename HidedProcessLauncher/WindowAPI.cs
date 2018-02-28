@@ -31,10 +31,10 @@ namespace HidedProcessLauncher
             /// <summary>
             /// Maximizes the specified window.
             /// </summary>
-            Maximize = 3, // is this the right value?
-                          /// <summary>
-                          /// Activates the window and displays it as a maximized window.
-                          /// </summary>       
+            Maximize = 3,
+            /// <summary>
+            /// Activates the window and displays it as a maximized window.
+            /// </summary>       
             ShowMaximized = 3,
             /// <summary>
             /// Displays a window in its most recent size and position. This value 
@@ -95,9 +95,7 @@ namespace HidedProcessLauncher
         /// <returns></returns>
         public static int HideMainWindow(IntPtr hwnd)
         {
-            int ret = ShowWindow(hwnd.ToInt32(), (int)ShowWindowCommands.Hide);
-            //ret= ShowWindow(hwnd.ToInt32(), (int)ShowWindowCommands.ForceMinimize);
-            return ret;
+            return ShowWindow(hwnd.ToInt32(), (int)ShowWindowCommands.Hide);
         }
 
         /// <summary>
@@ -107,9 +105,7 @@ namespace HidedProcessLauncher
         /// <returns></returns>
         public static int ShowMainWindow(IntPtr hwnd)
         {
-            int ret = ShowWindow(hwnd.ToInt32(), (int)ShowWindowCommands.ShowDefault);
-            //ret = ShowWindow(hwnd.ToInt32(), (int)ShowWindowCommands.Maximize);
-            return ret;
+            return ShowWindow(hwnd.ToInt32(), (int)ShowWindowCommands.ShowDefault);
         }
     }
 }
