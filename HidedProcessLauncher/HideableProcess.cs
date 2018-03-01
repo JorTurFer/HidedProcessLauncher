@@ -96,12 +96,11 @@ namespace HidedProcessLauncher
     /// <returns></returns>
     public new async Task Start()
     {
-
       base.Start();
       try
       {
         //Wait for procces start
-        Thread.Sleep(1500);
+        await Task.Delay(1500);
 
         //Wait for procces InputIdle
         int nWaitTime = 30000;
