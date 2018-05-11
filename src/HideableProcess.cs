@@ -115,14 +115,14 @@ namespace HidedProcessLauncher
           m_bHideable = false;
         }
       }
-      catch (Exception ex)
-      {
+      catch (InvalidOperationException)
+      {       
         //if the process doesn't have GUI, the code throws exception, so we take the handle and compare it with IntPtr.Zero
         //if WindowHandle == IntPtr.Zero the process is not hideable
         //else if WindowHandle != IntPtr.Zero  the process is hideable
         m_WindowHandle = MainWindowHandle;
         m_bHideable = m_WindowHandle != IntPtr.Zero;
-      }
+      }     
     }
 
   }
