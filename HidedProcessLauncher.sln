@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2020
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HidedProcessLauncher", "HidedProcessLauncher\HidedProcessLauncher.csproj", "{B6C989C8-102F-440C-998A-755BB0114904}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HidedProcessLauncher", "src\HidedProcessLauncher.csproj", "{B6C989C8-102F-440C-998A-755BB0114904}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
