@@ -13,5 +13,5 @@ AppVeyor
 * Select de process on the list, and then, right click->Selected will be show a menu where you can:
   * Show the window
   * Hide the window
-  * Togle the state
+  * Togle the state of the window
   * Close the process
