@@ -1,12 +1,9 @@
 # HidedProcessLauncher
 Hided Process Launcher
 
-AppVeyor
-
-[![Build status](https://ci.appveyor.com/api/projects/status/amxdtdwuhjj48y8h/branch/master?svg=true)](https://ci.appveyor.com/project/kabestrus/hidedprocesslauncher/branch/master)
-
-Code Factor
-[![CodeFactor](https://www.codefactor.io/repository/github/jorturfer/hidedprocesslauncher/badge)](https://www.codefactor.io/repository/github/jorturfer/hidedprocesslauncher)
+|AppVeyor|Code Factor|
+|--------|-----------|
+|[![Build status](https://ci.appveyor.com/api/projects/status/amxdtdwuhjj48y8h/branch/master?svg=true)](https://ci.appveyor.com/project/kabestrus/hidedprocesslauncher/branch/master)|[![CodeFactor](https://www.codefactor.io/repository/github/jorturfer/hidedprocesslauncher/badge)](https://www.codefactor.io/repository/github/jorturfer/hidedprocesslauncher)|
 
 ## Use:
 
