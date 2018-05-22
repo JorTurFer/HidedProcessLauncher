@@ -83,10 +83,8 @@ namespace HidedProcessLauncher
             ForceMinimize = 11
         }
 
-
         [DllImport("User32")]
         private static extern int ShowWindow(int hwnd, int nCmdShow);
-
 
         /// <summary>
         /// This function hides the Window

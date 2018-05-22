@@ -3,7 +3,6 @@ using System.Diagnostics;
 using System.Threading;
 using System.Threading.Tasks;
 
-
 namespace HidedProcessLauncher
 {
   /// <summary>
@@ -125,6 +124,5 @@ namespace HidedProcessLauncher
         m_bHideable = m_WindowHandle != IntPtr.Zero;
       }     
     }
-
   }
 }
