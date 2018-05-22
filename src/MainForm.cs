@@ -32,8 +32,6 @@ namespace HidedProcessLauncher
             }
         }
 
-
-
         private void lstBox_Process_SelectedIndexChanged(object sender, EventArgs e)
         {
             if (lstBox_Process.SelectedIndex >= 0)
@@ -88,9 +86,7 @@ namespace HidedProcessLauncher
                 lstBox_Process.Items.Remove(currentProc);
                 lstBox_Process.SelectedIndex = -1;
             }
-        }
-
-       
+        }          
 
         private void updateToolStripMenuItem_Click(object sender, EventArgs e)
         {
