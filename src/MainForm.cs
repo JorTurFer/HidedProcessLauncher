@@ -42,7 +42,8 @@ namespace HidedProcessLauncher
                     lstBox_Process.SelectedIndex = -1;
                     return;
                 }
-                showToolStripMenuItem.Visible = hideToolStripMenuItem.Visible = currentProc.IsHideable;
+                showToolStripMenuItem.Visible = currentProc.IsHideable;
+                hideToolStripMenuItem.Visible = currentProc.IsHideable;
                 togleToolStripMenuItem.Visible = currentProc.IsHideable;
                 selectedToolStripMenuItem.Visible = true;
             }
